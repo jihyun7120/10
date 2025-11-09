@@ -3,13 +3,9 @@
 
 int main(int argc, char *argv[])
 {
-    char src[] = "The Worst Things to eat before you sleep";
-    char dst[100];
+    char str[30] = "Happy C programming";
     
-    strcpy(dst,src);//대상,원문순서. 
-    
-    printf("copied string: %s\n",dst);
-    
+    printf("string %s length: %i\n", str, strlen(str));
     
     system("PAUSE");
     return 0;
